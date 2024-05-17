@@ -25,3 +25,6 @@ function formatArrayStrings(strings, processedNumbers){
         }
     });
 }
+
+//export functions to be used in other files
+module.exports = { processArray, formatArrayStrings };
